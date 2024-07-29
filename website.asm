@@ -161,7 +161,7 @@ response db 'HTTP/1.1 200 OK',13 , 10
          db 'Content-type: text/html; charset=utf-8', 13, 10
          db 'Connection: close', 13, 10
          db 13,10
-         db '<h1> Web server made entirely in assembly, using fasm assembler</h1>', 10
+         db '<h1> Web server made entirely in assembly, using FASM assembler</h1>', 10
 
 response_len = $ - response
 
